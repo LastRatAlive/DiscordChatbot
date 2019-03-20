@@ -12,10 +12,10 @@ client = discord.Client()
 @client.event
 async def on_message(message):
     # we do not want the bot to reply to itself
-    print("Channel:" + str(message.channel))
-    print("Server:" + str(message.server))
-    print("Message:" + str(message.content))
-    print("Author:" + str(message.author.name))
+    #print("Channel:" + str(message.channel))
+    #print("Server:" + str(message.server))
+    #print("Message:" + str(message.content))
+    #print("Author:" + str(message.author.name))
     if message.author == client.user:
         return
 
